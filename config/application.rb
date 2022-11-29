@@ -62,4 +62,6 @@ Jets.application.configure do
   # testing suite output readable.
   # config.logger = Jets::Logger.new($stderr)
 
+  config.api.auto_replace = true
+
 end
