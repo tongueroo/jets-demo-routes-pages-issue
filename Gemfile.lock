@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/boltops-tools/jets.git
-  revision: 88c721cbd6296cfef01c15bee96802cfec423764
+  revision: e5b355d49817c499748e2dfb36dfe3743ae0b6bf
   branch: routes-pages
   specs:
     jets (3.1.5)
@@ -88,7 +88,7 @@ GEM
       rainbow
       thor
       zeitwerk
-    aws-partitions (1.667.0)
+    aws-partitions (1.670.0)
     aws-sdk-apigateway (1.79.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
@@ -109,13 +109,13 @@ GEM
     aws-sdk-kinesis (1.42.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-kms (1.59.0)
+    aws-sdk-kms (1.60.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-lambda (1.88.0)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-s3 (1.117.1)
+    aws-sdk-s3 (1.117.2)
       aws-sdk-core (~> 3, >= 3.165.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.4)

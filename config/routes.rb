@@ -1,5 +1,6 @@
 Jets.application.routes.draw do
-  resources :posts
+  # resources :posts
+  resources :posts, param: :my_post_id
   root "jets/public#show"
 
   100.times do |i|
@@ -10,7 +11,10 @@ Jets.application.routes.draw do
     # get "test#{i}", to: "posts#index"
     get "good#{i}", to: "good#index#{i}"
   end
-  get "hello3a", to: "hello#index8"
+  # get "hello3a", to: "hello#index8"
+
+  get "test_to", to: "hello#index0"
+  # get "test_to", to: "hello#index1"
 
   # The jets/public#show controller can serve static utf8 content out of the public folder.
   # Note, as part of the deploy process Jets uploads files in the public folder to s3
