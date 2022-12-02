@@ -1,7 +1,7 @@
 class HelloController < ApplicationController
-	8.times do |i|
-		define_method "hello#{i}" do
-			render plain: "ok#{i}"
-		end
-	end
+  100.times do |i|
+    define_method "index#{i}" do
+      render plain: "hello#{i}"
+    end
+  end
 end

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/boltops-tools/jets.git
-  revision: 1df9c1013f618f735beae30da3deb98ac820597f
+  revision: 88c721cbd6296cfef01c15bee96802cfec423764
   branch: routes-pages
   specs:
     jets (3.1.5)
