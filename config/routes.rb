@@ -24,6 +24,13 @@ Jets.application.routes.draw do
   # Use resources :posts, param: :my_post_id to reproduce
   resources :posts
   # resources :posts, param: :my_post_id
+  # resources :posts, param: :post_id
+
+  # Note: #3 when went from `resources :posts, param: :my_post_id` back to `resources :posts`
+  # initially got a CloudFormation error on the AWS side at update_stack
+  # https://github.com/boltops-tools/jets/blob/35bb5a40148074ae03f03b85b16e63707df90970/lib/jets/cfn/ship.rb#L66
+  # About a "Circular dependency" but the error magically went away
+  # Tried reproducing many times and think it might have been an temporary edge case CloudFormation bug
 
   # The jets/public#show controller can serve static utf8 content out of the public folder.
   # Note, as part of the deploy process Jets uploads files in the public folder to s3
