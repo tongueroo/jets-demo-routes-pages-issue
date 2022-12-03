@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/boltops-tools/jets.git
-  revision: 2839c2a7aa9466e994c1f80bf462176cd74862a2
-  branch: routes-pages
+  revision: 0cb80ae6cad0306558a066d50880585191e7cc22
+  branch: master
   specs:
     jets (3.1.5)
       actionmailer (~> 6.1.0)

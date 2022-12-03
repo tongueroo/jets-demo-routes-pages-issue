@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
 # gem "jets", "~> 3.1.0"
-gem "jets", github: "boltops-tools/jets", branch: "routes-pages"
+gem "jets", github: "boltops-tools/jets", branch: "master"
+# gem "jets", github: "boltops-tools/jets", branch: "routes-pages"
 
 # Include jetpacker if you are building html pages
 gem "jetpacker"
