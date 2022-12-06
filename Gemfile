@@ -5,7 +5,8 @@ gem "jets", github: "boltops-tools/jets", branch: "master"
 # gem "jets", github: "boltops-tools/jets", branch: "routes-pages"
 
 # Include jetpacker if you are building html pages
-gem "jetpacker"
+# gem "jetpacker"
+gem "jetpacker", github: "tongueroo/jetpacker"
 
 # Include mysql2 gem if you are using ActiveRecord, remove next line
 # and config/database.yml file if you are not
